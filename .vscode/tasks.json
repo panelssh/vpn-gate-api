@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start",
+            "type": "shell",
+            "command": "yarn",
+            "args": [
+                "start"
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "clear": true,
+            }
+        },
+        {
+            "label": "dev",
+            "type": "shell",
+            "command": "yarn",
+            "args": [
+                "dev",
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "clear": true,
+            }
+        }
+    ]
+}

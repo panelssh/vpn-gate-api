@@ -1,0 +1,3 @@
+[build]
+  command = "npx netlify-lambda build build/netlify -c ./webpack.functions.js"
+  functions = "functions"

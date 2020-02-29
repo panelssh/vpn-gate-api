@@ -1,0 +1,12 @@
+{
+    "name": "VPN Gate API",
+    "description": "Simple access VPN Gate API with heroku and save to firebase firestore.",
+    "logo": "https://avatars2.githubusercontent.com/u/28407439?s=100&v=4",
+    "repository": "https://github.com/panelssh/vpn-gate-api",
+    "env": {
+        "FIREBASE": {
+            "description": "Generate and copy all text from serviceAccountKey.json then encode to base64 with this link https://www.base64encode.org",
+            "required": true
+        }
+    }
+}

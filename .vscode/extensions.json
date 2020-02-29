@@ -1,0 +1,33 @@
+{
+	// @builtin
+	// --------
+	// FEATURES
+	// vscode.configuration-editing (Configuration Editing)
+	// vscode.emmet (Emmet)
+	// vscode.extension-editing (Extension Authoring)
+	// vscode.git (Git)
+	// vscode.image-preview (Image Preview)
+	// vscode.json-language-features (JSON Language Features)
+	// vscode.markdown-language-features (Markdown Language Features)
+	// ms-vscode.references-view (Reference Search View)
+	// vscode.search-result (Search Result)
+	// vscode.typescript-language-features (TypeScript and JavaScript Language Features)
+	// --------
+	// PROGRAMMING LANGUAGES
+	// vscode.javascript (JavaScript Language Basics)
+	// vscode.json (JSON Language Basics)
+	// vscode.markdown (Markdown Language Basics)
+	// vscode.typescript (TypeScript Language Basics)
+	// vscode.yaml (YAML Language Basics)
+	// --------
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"bungcip.better-toml", // Better TOML
+		"mikestead.dotenv", // DotENV
+		"dbaeumer.vscode-eslint", // ESLint
+		"chakrounanas.turbo-console-log", // Turbo Console Log
+		"redhat.vscode-yaml", // YAML
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": []
+}

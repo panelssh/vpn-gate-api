@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "env": {
+    "FIREBASE": "@firebase"
+  },
+  "builds": [
+    {
+      "src": "build/now.js",
+      "use": "@now/node",
+      "config": {
+        "maxLambdaSize": "50mb"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "(.*)",
+      "dest": "build/now.js"
+    }
+  ]
+}
