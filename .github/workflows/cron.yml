@@ -1,0 +1,13 @@
+name: Update Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: docker://alpine/httpie:latest
+      - run: https POST vpn-gate-api.now.sh
