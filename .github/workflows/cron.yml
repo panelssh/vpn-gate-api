@@ -2,11 +2,11 @@ name: Update Data
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 1 * *'
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu-20.04
 
     steps:
       - uses: docker://alpine/httpie:latest
